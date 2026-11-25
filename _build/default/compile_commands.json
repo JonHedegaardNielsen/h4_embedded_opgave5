@@ -4,5 +4,17 @@
   "command": "/usr/bin/avr-gcc -D__ATmega328PB__ -Ddefault=default -I/home/jon/.mchp_packs/Microchip/ATmega_DFP/3.6.299/include -x c -fdiagnostics-color=always -g -gdwarf-2 -mmcu=atmega328pb -B/home/jon/.mchp_packs/Microchip/ATmega_DFP/3.6.299/gcc/dev/atmega328pb -x c -c -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -o CMakeFiles/A___default_default_AVR_GCC_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave5/main.c.o -c /home/jon/Projects/Programming/Embedded/h4_embedded_opgave5/main.c",
   "file": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave5/main.c",
   "output": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave5/_build/default/CMakeFiles/A___default_default_AVR_GCC_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave5/main.c.o"
+},
+{
+  "directory": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave5/_build/default",
+  "command": "/usr/bin/avr-gcc -D__ATmega328PB__ -Ddefault=default -I/home/jon/.mchp_packs/Microchip/ATmega_DFP/3.6.299/include -x c -fdiagnostics-color=always -g -gdwarf-2 -mmcu=atmega328pb -B/home/jon/.mchp_packs/Microchip/ATmega_DFP/3.6.299/gcc/dev/atmega328pb -x c -c -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -o CMakeFiles/A___default_default_AVR_GCC_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave5/src/ring_buffer.c.o -c /home/jon/Projects/Programming/Embedded/h4_embedded_opgave5/src/ring_buffer.c",
+  "file": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave5/src/ring_buffer.c",
+  "output": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave5/_build/default/CMakeFiles/A___default_default_AVR_GCC_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave5/src/ring_buffer.c.o"
+},
+{
+  "directory": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave5/_build/default",
+  "command": "/usr/bin/avr-gcc -D__ATmega328PB__ -Ddefault=default -I/home/jon/.mchp_packs/Microchip/ATmega_DFP/3.6.299/include -x c -fdiagnostics-color=always -g -gdwarf-2 -mmcu=atmega328pb -B/home/jon/.mchp_packs/Microchip/ATmega_DFP/3.6.299/gcc/dev/atmega328pb -x c -c -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -o CMakeFiles/A___default_default_AVR_GCC_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave5/src/uart.c.o -c /home/jon/Projects/Programming/Embedded/h4_embedded_opgave5/src/uart.c",
+  "file": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave5/src/uart.c",
+  "output": "/home/jon/Projects/Programming/Embedded/h4_embedded_opgave5/_build/default/CMakeFiles/A___default_default_AVR_GCC_compile.dir/home/jon/Projects/Programming/Embedded/h4_embedded_opgave5/src/uart.c.o"
 }
 ]

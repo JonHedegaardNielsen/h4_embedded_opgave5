@@ -64,6 +64,10 @@ CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/avr-gcc-ar
 // for the GCC compiler
 CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/avr-gcc-ranlib
 
+//Tell CMake that the compiler works, but cannot be run during
+// the configuration stage
+CMAKE_CXX_COMPILER_WORKS:BOOL=YES
+
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
 
@@ -89,6 +93,10 @@ CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/avr-gcc-ar
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
 CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/avr-gcc-ranlib
+
+//Tell CMake that the compiler works, but cannot be run during
+// the configuration stage
+CMAKE_C_COMPILER_WORKS:BOOL=YES
 
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -246,7 +254,9 @@ CMAKE_STRIP:FILEPATH=/usr/bin/avr-strip
 //Path to a program.
 CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 
-//The CMake toolchain file
+//Path to a CMake toolchain file, read early in the CMake run,
+// that specifies the compilers, toolchain utilities, and target-platform
+// information used when cross-compiling.
 CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/jon/Projects/Programming/Embedded/h4_embedded_opgave5/cmake/default/.generated/toolchain.cmake
 
 //Specify a CMake file that overrides platform information. CMake

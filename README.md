@@ -1,5 +1,24 @@
 
-# .
+# Opgave 5 - UART handshake og ringbuffer
+
+Programmet bruger begge USART'er på ATmega328PB:
+
+- `USART0` er som udgangspunkt den valgte modtage-UART (CP2102-forbindelsen).
+- `USART1` bruges til at sende brugernavnet og til at sende de modtagne tegn tilbage.
+
+Forløbet er:
+
+1. Der ventes på `:` på modtage-UART'en.
+2. Når `:` modtages, sendes `:Betjenten:` på den anden UART.
+3. Der ventes på `;` på modtage-UART'en.
+4. Når `;` modtages, startes ringbufferen, og alle modtagne tegn sendes tilbage
+   på den anden UART, indtil ringbufferen er tom.
+
+Indstillinger ændres i `include/ProjectDefines.h`:
+
+- `USERNAME` er brugernavnet, der sendes i handshaket.
+- `RX_UART` vælger modtage-UART (`0` = USART0/CP2102, `1` = USART1).
+- `BAUD` er baudraten på begge UART'er.
 
 ## Getting Started
 
