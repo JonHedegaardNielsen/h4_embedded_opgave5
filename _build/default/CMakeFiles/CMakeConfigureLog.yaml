@@ -1,0 +1,1019 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/"
+      - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux/"
+      - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/"
+      - "/home/jon/.dotnet/tools/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/bin/"
+    searched_directories:
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/uname"
+      - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux/uname"
+      - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/uname"
+      - "/home/jon/.dotnet/tools/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2"
+        - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux"
+        - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin"
+        - "/home/jon/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineSystem.cmake:215 (message)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      The target system is: Generic -  - 
+      The host system is: Linux - 7.3.6-1-cachyos - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/"
+      - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux/"
+      - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/"
+      - "/home/jon/.dotnet/tools/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/ninja-build"
+    found: "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/ninja"
+    search_context:
+      ENV{PATH}:
+        - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2"
+        - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux"
+        - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin"
+        - "/home/jon/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/"
+    found: "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2"
+        - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux"
+        - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin"
+        - "/home/jon/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/avr-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/jon/Projects/Programming/Embedded/h4_embedded_opgave5/_build/default/CMakeFiles/4.5.1/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/"
+      - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux/"
+      - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/"
+      - "/home/jon/.dotnet/tools/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/avr-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2"
+        - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux"
+        - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin"
+        - "/home/jon/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-strip"
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/"
+      - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux/"
+      - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/"
+      - "/home/jon/.dotnet/tools/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/avr-strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2"
+        - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux"
+        - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin"
+        - "/home/jon/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-ld"
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/"
+      - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux/"
+      - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/"
+      - "/home/jon/.dotnet/tools/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/avr-ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2"
+        - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux"
+        - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin"
+        - "/home/jon/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-nm"
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/"
+      - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux/"
+      - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/"
+      - "/home/jon/.dotnet/tools/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/avr-nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2"
+        - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux"
+        - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin"
+        - "/home/jon/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/"
+      - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux/"
+      - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/"
+      - "/home/jon/.dotnet/tools/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/avr-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2"
+        - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux"
+        - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin"
+        - "/home/jon/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/"
+      - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux/"
+      - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/"
+      - "/home/jon/.dotnet/tools/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/avr-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2"
+        - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux"
+        - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin"
+        - "/home/jon/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/"
+      - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux/"
+      - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/"
+      - "/home/jon/.dotnet/tools/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/avr-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2"
+        - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux"
+        - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin"
+        - "/home/jon/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/"
+      - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux/"
+      - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/"
+      - "/home/jon/.dotnet/tools/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/avr-dlltool"
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/avr-dlltool"
+      - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux/avr-dlltool"
+      - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/avr-dlltool"
+      - "/home/jon/.dotnet/tools/avr-dlltool"
+      - "/usr/local/sbin/avr-dlltool"
+      - "/usr/local/bin/avr-dlltool"
+      - "/usr/bin/site_perl/avr-dlltool"
+      - "/usr/bin/vendor_perl/avr-dlltool"
+      - "/usr/bin/core_perl/avr-dlltool"
+      - "/usr/bin/dlltool"
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/dlltool"
+      - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux/dlltool"
+      - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/dlltool"
+      - "/home/jon/.dotnet/tools/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/bin/site_perl/dlltool"
+      - "/usr/bin/vendor_perl/dlltool"
+      - "/usr/bin/core_perl/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2"
+        - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux"
+        - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin"
+        - "/home/jon/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/"
+      - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux/"
+      - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/"
+      - "/home/jon/.dotnet/tools/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/avr-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2"
+        - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux"
+        - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin"
+        - "/home/jon/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/"
+      - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux/"
+      - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/"
+      - "/home/jon/.dotnet/tools/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/avr-tapi"
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/avr-tapi"
+      - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux/avr-tapi"
+      - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/avr-tapi"
+      - "/home/jon/.dotnet/tools/avr-tapi"
+      - "/usr/local/sbin/avr-tapi"
+      - "/usr/local/bin/avr-tapi"
+      - "/usr/bin/site_perl/avr-tapi"
+      - "/usr/bin/vendor_perl/avr-tapi"
+      - "/usr/bin/core_perl/avr-tapi"
+      - "/usr/bin/tapi"
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/tapi"
+      - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux/tapi"
+      - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/tapi"
+      - "/home/jon/.dotnet/tools/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/bin/site_perl/tapi"
+      - "/usr/bin/vendor_perl/tapi"
+      - "/usr/bin/core_perl/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2"
+        - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux"
+        - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin"
+        - "/home/jon/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:202 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-gcc-ar-16.2"
+      - "avr-gcc-ar-16"
+      - "avr-gcc-ar16"
+      - "avr-gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/"
+      - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux/"
+      - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/"
+      - "/home/jon/.dotnet/tools/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/avr-gcc-ar-16.2"
+      - "/usr/bin/avr-gcc-ar-16"
+      - "/usr/bin/avr-gcc-ar16"
+    found: "/usr/bin/avr-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2"
+        - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux"
+        - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin"
+        - "/home/jon/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/Compiler/GNU-FindBinUtils.cmake:33 (find_program)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCCompiler.cmake:202 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-gcc-ranlib-16.2"
+      - "avr-gcc-ranlib-16"
+      - "avr-gcc-ranlib16"
+      - "avr-gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/"
+      - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux/"
+      - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/"
+      - "/home/jon/.dotnet/tools/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/avr-gcc-ranlib-16.2"
+      - "/usr/bin/avr-gcc-ranlib-16"
+      - "/usr/bin/avr-gcc-ranlib16"
+    found: "/usr/bin/avr-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2"
+        - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux"
+        - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin"
+        - "/home/jon/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/"
+    found: "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2"
+        - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux"
+        - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin"
+        - "/home/jon/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/avr-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/jon/Projects/Programming/Embedded/h4_embedded_opgave5/_build/default/CMakeFiles/4.5.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:208 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-gcc-ar-16.2"
+      - "avr-gcc-ar-16"
+      - "avr-gcc-ar16"
+      - "avr-gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/"
+      - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux/"
+      - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/"
+      - "/home/jon/.dotnet/tools/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/avr-gcc-ar-16.2"
+      - "/usr/bin/avr-gcc-ar-16"
+      - "/usr/bin/avr-gcc-ar16"
+    found: "/usr/bin/avr-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2"
+        - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux"
+        - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin"
+        - "/home/jon/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/Compiler/GNU-FindBinUtils.cmake:33 (find_program)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:208 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-gcc-ranlib-16.2"
+      - "avr-gcc-ranlib-16"
+      - "avr-gcc-ranlib16"
+      - "avr-gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/"
+      - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux/"
+      - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/"
+      - "/home/jon/.dotnet/tools/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/avr-gcc-ranlib-16.2"
+      - "/usr/bin/avr-gcc-ranlib-16"
+      - "/usr/bin/avr-gcc-ranlib16"
+    found: "/usr/bin/avr-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2"
+        - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux"
+        - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin"
+        - "/home/jon/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:1392 (message)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineASMCompiler.cmake:174 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      avr-gcc (GCC) 16.2.0
+      Copyright (C) 2026 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineASMCompiler.cmake:271 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-gcc-ar-"
+      - "avr-gcc-ar-"
+      - "avr-gcc-ar"
+      - "avr-gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/"
+      - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux/"
+      - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/"
+      - "/home/jon/.dotnet/tools/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/avr-gcc-ar-"
+      - "/usr/bin/avr-gcc-ar-"
+    found: "/usr/bin/avr-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2"
+        - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux"
+        - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin"
+        - "/home/jon/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/Compiler/GNU-FindBinUtils.cmake:33 (find_program)"
+      - "/home/jon/.mplab/app-finder/apps/cmake/v4.5.1/cmake-4.5.1-linux-x86_64/share/cmake-4.5/Modules/CMakeDetermineASMCompiler.cmake:271 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avr-gcc-ranlib-"
+      - "avr-gcc-ranlib-"
+      - "avr-gcc-ranlib"
+      - "avr-gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2/"
+      - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux/"
+      - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin/"
+      - "/home/jon/.dotnet/tools/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/avr-gcc-ranlib-"
+      - "/usr/bin/avr-gcc-ranlib-"
+    found: "/usr/bin/avr-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/jon/.mplab/app-finder/apps/ninja/v1.13.2"
+        - "/home/jon/.mplab/app-finder/apps/make/v4.4.1/linux"
+        - "/home/jon/.mplab/app-finder/apps/hexmate/v3.00/dist/linux/bin"
+        - "/home/jon/.dotnet/tools"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+...
